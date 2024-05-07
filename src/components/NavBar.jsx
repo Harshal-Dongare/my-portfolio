@@ -1,6 +1,8 @@
 import React, { useState } from "react";
 import { FaBars, FaTimes } from "react-icons/fa";
 import { Link } from "react-scroll";
+import websiteLogo from "../assets/website-logo.png";
+
 const NavBar = () => {
     const [activeLink, setActiveLink] = useState("");
     const [toggleHamburger, setToggleHamburger] = useState(false);
@@ -30,9 +32,16 @@ const NavBar = () => {
     return (
         <div className="flex justify-between items-center w-full h-20 text-white bg-black px-4 fixed">
             <div>
-                <h1 className="text-5xl font-signature ml-2">
+                <h1 className="text-5xl font-signature ml-2 hidden md:block">
                     Harshal Dongare
                 </h1>
+                <div>
+                    <img
+                        src={websiteLogo}
+                        alt=""
+                        className="block md:hidden mx-auto h-12 w-auto"
+                    />
+                </div>
             </div>
             <ul className="hidden md:flex">
                 {links.map(({ _id, linkTitle }) => (
