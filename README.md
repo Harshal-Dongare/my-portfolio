@@ -29,7 +29,7 @@ Aspiring Frontend Developer eager to learn and create.
 
 - **Email:** myeducationalarena@gmail.com.
 - **LinkedIn:** [Link to LinkedIn profile](https://www.linkedin.com/in/harshal-dongare-0a249829a/)
-- **GitHub:** [Link to GitHub profile](github_link](https://github.com/harshal-dongare))
+- **GitHub:** [Link to GitHub profile](https://github.com/harshal-dongare)
 
 Feel free to reach out to me if you have any questions or opportunities for collaboration!
 
