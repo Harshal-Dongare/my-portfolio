@@ -1,6 +1,6 @@
 import React from "react";
 import glamhue from "../assets/portfolio/glamhue.jpg";
-import fintessmind from "../assets/portfolio/fintessmind.jpg";
+import fintessmind from "../assets/portfolio/fitness-mind.jpg";
 import coditor from "../assets/portfolio/coditor.jpg";
 import geminiClone from "../assets/portfolio/gemini-clone.jpg";
 import onBook from "../assets/portfolio/onBook.jpg";
