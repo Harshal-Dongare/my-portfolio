@@ -2,7 +2,7 @@ import React from "react";
 import glamhue from "../assets/portfolio/glamhue.jpg";
 import fintessmind from "../assets/portfolio/fitness-mind.jpg";
 import coditor from "../assets/portfolio/coditor.jpg";
-import geminiClone from "../assets/portfolio/gemini-clone.jpg";
+import geminiClone from "../assets/portfolio/geminiClone.jpg";
 import onBook from "../assets/portfolio/onBook.jpg";
 import golfClone from "../assets/portfolio/golfClone.jpg";
 
