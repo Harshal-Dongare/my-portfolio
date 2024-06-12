@@ -1,10 +1,10 @@
 import React from "react";
-import arrayDestruct from "../assets/portfolio/arrayDestruct.jpg";
-import installNode from "../assets/portfolio/installNode.jpg";
-import navbar from "../assets/portfolio/navbar.jpg";
-import reactParallax from "../assets/portfolio/reactParallax.jpg";
-import reactSmooth from "../assets/portfolio/reactSmooth.jpg";
-import reactWeather from "../assets/portfolio/reactWeather.jpg";
+import glamhue from "../assets/portfolio/glamhue.jpg";
+import fintessmind from "../assets/portfolio/fintessmind.jpg";
+import coditor from "../assets/portfolio/coditor.jpg";
+import geminiClone from "../assets/portfolio/gemini-clone.jpg";
+import onBook from "../assets/portfolio/onBook.jpg";
+import golfClone from "../assets/portfolio/golfClone.jpg";
 
 const Portfolio = () => {
     // link handler for Demo and Code links
@@ -15,39 +15,40 @@ const Portfolio = () => {
     const projectList = [
         {
             _id: 1,
-            src: arrayDestruct,
-            codeLink: "https://github.com/harshal-dongare",
-            demoLink: "https://www.google.com/",
+            src: glamhue,
+            codeLink: "https://github.com/Harshal-Dongare/ecommerce-portal",
+            demoLink: "https://glamhue.netlify.app/",
         },
         {
             _id: 2,
-            src: reactParallax,
-            codeLink: "https://github.com/harshal-dongare",
-            demoLink: "https://www.google.com/",
+            src: fintessmind,
+            codeLink: "https://github.com/Harshal-Dongare/fitness-mind",
+            demoLink: "https://fitness-mind.netlify.app/",
         },
         {
             _id: 3,
-            src: navbar,
-            codeLink: "https://github.com/harshal-dongare",
-            demoLink: "https://www.google.com/",
+            src: coditor,
+            codeLink: "https://github.com/Harshal-Dongare/CodeEditor",
+            demoLink: "https://vanilla-coditor.netlify.app/",
         },
         {
             _id: 4,
-            src: reactSmooth,
-            codeLink: "https://github.com/harshal-dongare",
-            demoLink: "https://www.google.com/",
+            src: golfClone,
+            codeLink:
+                "https://github.com/Harshal-Dongare/SidecupFamilyGolf-Website-Clone",
+            demoLink: "https://sidecupfamilyclone.netlify.app/",
         },
         {
             _id: 5,
-            src: installNode,
-            codeLink: "https://github.com/harshal-dongare",
-            demoLink: "https://www.google.com/",
+            src: geminiClone,
+            codeLink: "https://github.com/Harshal-Dongare/Gemini-Clone",
+            demoLink: "https://hdgeminiclone.netlify.app/",
         },
         {
             _id: 6,
-            src: reactWeather,
+            src: onBook,
             codeLink: "https://github.com/harshal-dongare",
-            demoLink: "https://www.google.com/",
+            demoLink: "https://onboook.netlify.app/",
         },
     ];
 
