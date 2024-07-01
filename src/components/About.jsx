@@ -18,8 +18,9 @@ const About = () => {
                         front-end
                     </span>{" "}
                     developer based in Thane, Maharashtra, India. I have
-                    developed many types of front-ends from well know DJ
-                    applications to E-commerce booking platforms.
+                    developed a wide range of front-end applications,
+                    demonstrating my ability to create user-friendly and
+                    efficient interfaces for various types of platforms.
                 </p>
                 <br />
                 <p className="text-2xl">
