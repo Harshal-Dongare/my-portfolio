@@ -3,7 +3,7 @@ import glamhue from "../assets/portfolio/glamhue.jpg";
 import fintessmind from "../assets/portfolio/fitness-mind.jpg";
 import coditor from "../assets/portfolio/coditor.jpg";
 import geminiClone from "../assets/portfolio/geminiClone.jpg";
-import onBook from "../assets/portfolio/onBook.jpg";
+import doanddice from "../assets/portfolio/doanddice.png";
 import golfClone from "../assets/portfolio/golfClone.jpg";
 
 const Portfolio = () => {
@@ -46,9 +46,9 @@ const Portfolio = () => {
         },
         {
             _id: 6,
-            src: onBook,
-            codeLink: "https://github.com/harshal-dongare",
-            demoLink: "https://onboook.netlify.app/",
+            src: doanddice,
+            codeLink: "https://github.com/Harshal-Dongare/do-and-dice",
+            demoLink: "https://main--doanddice.netlify.app/",
         },
     ];
 
