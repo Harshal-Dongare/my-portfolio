@@ -8,11 +8,13 @@ const About = () => {
         >
             <div className="max-w-screen-lg mx-auto p-4 flex flex-col justify-center w-full h-full">
                 <div className="pb-8">
-                    <p className="text-4xl font-bold inline border-b-4 border-cyan-500">
-                        About
+                    <p className="text-6xl font-bold inline border-b-4 border-blue-500">
+                        <span className="text-white font-styleScript font-medium neon-effect">
+                            About
+                        </span>{" "}
                     </p>
                 </div>
-                <p className="text-2xl mt-20">
+                <p className="text-2xl mt-20 leading-relaxed">
                     My name is Harshal Dongare, I'm a{" "}
                     <span className="font-styleScript text-cyan-500">
                         front-end
@@ -23,7 +25,7 @@ const About = () => {
                     efficient interfaces for various types of platforms.
                 </p>
                 <br />
-                <p className="text-2xl">
+                <p className="text-2xl leading-relaxed">
                     I'm passionate about cutting-edge, pixel-perfect, beautiful
                     interfaces and intuitively implemented UX.
                 </p>

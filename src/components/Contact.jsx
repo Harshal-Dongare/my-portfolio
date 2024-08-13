@@ -53,8 +53,10 @@ const Contact = () => {
         >
             <div className="flex flex-col p-4 justify-center max-w-screen-lg mx-auto h-full">
                 <div className="pb-8">
-                    <p className="text-4xl font-bold inline border-b-4 border-cyan-500">
-                        Contact
+                    <p className="text-6xl font-bold inline border-b-4 border-blue-500">
+                        <span className="text-white font-styleScript font-medium neon-effect">
+                            Contact Me
+                        </span>{" "}
                     </p>
                     <p className="py-6">
                         Submit the form below to get in touch with me

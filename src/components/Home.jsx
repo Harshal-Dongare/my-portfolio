@@ -11,9 +11,35 @@ const Home = () => {
             <div className="max-w-screen-lg mx-auto flex flex-col items-center justify-center h-full px-2 md:flex-row">
                 <div className="flex flex-col justify-center md:text-left sm:text-center sm:items-center lg:items-start h-full">
                     <h1 className="text-4xl md:text-7xl font-bold text-white">
-                        I'm a{" "}
-                        <span className="text-cyan-500 font-styleScript font-medium">
-                            Front-&nbsp;end
+                        I'm a{<br />}
+                        <span className="font-styleScript font-medium">
+                            <span className="text-blue-600 letter-flicker letter-1">
+                                F
+                            </span>
+                            <span className="text-blue-600 letter-flicker letter-2">
+                                r
+                            </span>
+                            <span className="text-blue-600 letter-flicker letter-3">
+                                o
+                            </span>
+                            <span className="text-blue-600 letter-flicker letter-4">
+                                n
+                            </span>
+                            <span className="text-blue-600 letter-flicker letter-5">
+                                t
+                            </span>
+                            <span className="text-blue-600 letter-flicker letter-6">
+                                -
+                            </span>
+                            <span className="text-blue-600 letter-flicker letter-7">
+                                e
+                            </span>
+                            <span className="text-blue-600 letter-flicker letter-8">
+                                n
+                            </span>
+                            <span className="text-blue-600 letter-flicker letter-9">
+                                d
+                            </span>
                         </span>{" "}
                         Developer
                     </h1>

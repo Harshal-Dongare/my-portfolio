@@ -5,6 +5,11 @@ import javascript from "../assets/javascript.png";
 import reactImage from "../assets/react.png";
 import github from "../assets/github.png";
 import tailwind from "../assets/tailwind.png";
+import firebase from "../assets/firebase.png";
+import redux from "../assets/redux.png";
+import sass from "../assets/sass.png";
+import reactQuery from "../assets/reactQuery.png";
+import node from "../assets/node.png";
 // import html from "../assets/html.png";
 // import html from "../assets/html.png";
 
@@ -43,19 +48,51 @@ const TechStack = () => {
         {
             _id: 6,
             src: github,
-            title: "GitHub",
+            title: "Git",
             style: "shadow-gray-400",
+        },
+        {
+            _id: 7,
+            src: firebase,
+            title: "Firebase",
+            style: "shadow-orange-500",
+        },
+        {
+            _id: 8,
+            src: redux,
+            title: "Redux",
+            style: "shadow-violet-400",
+        },
+        {
+            _id: 9,
+            src: sass,
+            title: "Sass",
+            style: "shadow-pink-400",
+        },
+        {
+            _id: 10,
+            src: reactQuery,
+            title: "React Query",
+            style: "shadow-red-400",
+        },
+        {
+            _id: 11,
+            src: node,
+            title: "Node",
+            style: "shadow-green-400",
         },
     ];
     return (
         <section
             name="techstack"
-            className="bg-gradient-to-b from-gray-800 to-black w-full h-screen"
+            className="bg-gradient-to-b from-gray-800 to-black w-full min-h-screen pt-16"
         >
             <div className="max-w-screen-lg mx-auto p-4 flex flex-col justify-center w-full h-full text-white">
                 <div className="pb-8">
-                    <p className="text-4xl font-bold border-b-4 border-cyan-500 inline">
-                        TechStack
+                    <p className="text-6xl font-bold border-b-4 border-blue-500 inline">
+                        <span className="text-white font-styleScript font-medium neon-effect">
+                            TechStack
+                        </span>{" "}
                     </p>
                     <p className="py-6">
                         These are the technologies I've' worked with
